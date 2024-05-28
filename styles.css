@@ -77,3 +77,99 @@ h1, h2{
     margin-bottom: 16px;
     margin-left: 32px;
 }
+
+#farmacia{
+    text-align: center;
+    padding: 64px 80px;
+}
+
+#farmacia img{
+    margin: 64px auto;
+}
+
+#farmacia .paragrafo{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#duvidas{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+.duvida{
+    position: relative;
+}
+
+.duvida h3{
+    border: 2px solid #FF725E;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.duvida img{
+    position: absolute;
+    right: 24px;
+    top: 32px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid #FF725E;
+    border-bottom: 1px solid #FF725E;
+    border-left: 1px solid #FF725E;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 24px;
+}
+
+
+footer{
+    background-color: #FF9A6C40;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer .titulo{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer img{
+    margin-bottom: 20px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer nav a{
+    color: #263138;
+}
+
+footer p{
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+footer p a{
+    color: #FF725E;
+}
+
+#copyright{
+    background-color: #263138;
+    text-align: center;
+    padding: 24px;
+    color: #FFFFFF;
+}
+
+#copyright a{
+    color: #FF725E;
+}
